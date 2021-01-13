@@ -13,7 +13,7 @@ while 1:
         if num % 2 == 0:
             num += 1
         if num <= 3:
-            print('阶数太小了，试试大一点的~')
+            print(f'{num}阶太小了，试试大一点的~')
         else:
             maze = generate_maze(num)
             maze_object = Solve(maze[0], maze[1][0], maze[1][1], maze[2][0], maze[2][1])
